@@ -25,7 +25,7 @@ export default async function DynamicPage() {
   return (
     <div className="d-flex flex-column align-items-center">
       <Alert>
-        This page is fetched dynamically, fetching at run time. You can use <strong>revalidate</strong> set to seconds for making the entire page dynamic. Or, to make each fetch request dynamic, set <strong>cache: 'no-cache'</strong> or <strong>next: revalidate: 0</strong>
+        This page is fetched dynamically, fetching at run time. You can use <strong>revalidate</strong> set to seconds for making the entire page dynamic. Or, to make each fetch request dynamic, set <strong>cache: &rsquo;no-cache&rsquo;</strong> or <strong>next: revalidate: 0</strong>
       </Alert>
       <Image
         src={image.urls.raw}
